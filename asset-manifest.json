@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/funbox/static/css/main.3c9567dd.css",
+    "main.js": "/funbox/static/js/main.e4690198.js",
+    "static/media/Back.png": "/funbox/static/media/Back.9905526c877e2ef150b6.png",
+    "static/media/isSelected.png": "/funbox/static/media/isSelected.a665bd226cee15a7201b.png",
+    "static/media/not.png": "/funbox/static/media/not.3a34467a7a23366ac903.png",
+    "static/media/Pattern.png": "/funbox/static/media/Pattern.8b93e2127ee44e2a8146.png",
+    "static/media/Exo2.0-Thin.otf": "/funbox/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
+    "index.html": "/funbox/index.html",
+    "main.3c9567dd.css.map": "/funbox/static/css/main.3c9567dd.css.map",
+    "main.e4690198.js.map": "/funbox/static/js/main.e4690198.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c9567dd.css",
+    "static/js/main.e4690198.js"
+  ]
+}
