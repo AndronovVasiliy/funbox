@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+}
+
+.main_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+@media (max-width: 767px) { 
+    .main {
+        width: 100%;
+    }
+}
+
+@media (min-width: 766px) {
+
+    .main {
+        width: 100%;
+    }
+}
+
+.title {
+    font-family: Exo;
+    font-weight: normal;
+    color: white;
+}

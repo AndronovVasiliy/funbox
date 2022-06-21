@@ -1,0 +1,136 @@
+.circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    background-color: #E52E7A;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+
+    p {
+        font-size: 18px;
+        margin: 0;
+    }
+}
+
+.back_img{
+    display: flex;
+    position: relative;
+    width: 320px;
+    height: 480px;
+    background-image: url('./img/Back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    font-family: Exo;
+    cursor: pointer;
+
+    .circle {
+        background-color: #2EA8E6;
+    }
+}
+
+.back_img_not{
+    display: flex;
+    position: relative;
+    width: 320px;
+    height: 480px;
+    background-image: url('./img/not.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    font-family: Exo;
+    cursor: pointer;
+
+    .circle {
+        background-color: #B3B3B3;
+    }
+}
+
+.back_img_isSelected{
+    display: flex;
+    position: relative;
+    width: 320px;
+    height: 480px;
+    background-image: url('./img/isSelected.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    font-family: Exo;
+    cursor: pointer;
+
+    .circle {
+        background-color: #E52E7A;
+    }
+}
+
+
+
+.note {
+    color: white;
+    font-size: 12px;
+
+    .buy{
+        color: #1698D9;
+        cursor: pointer;
+
+        &:hover {
+            color: purple;
+        }
+    }
+}
+
+.description {    
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+    align-items: flex-start;
+}
+
+.about_product{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.name {
+    margin: 0;    
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.with {
+    margin: 0;   
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.num_portion {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.number_of_servings {
+    color: black;
+    font-weight: bolder;
+}
+
+.additional_information {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.under_card{
+    font-size: 12px;
+    color: white;
+}
+
+.under_card_not {
+    font-size: 12px;
+    color: #FFFF66;
+}
